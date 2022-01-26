@@ -86,16 +86,8 @@
                                       My Weight
                                     </a>
 
-                                    <a href="/goals" class="dropdown-item">
-                                      My Goals
-                                    </a>
-
                                     <a href="/foods" class="dropdown-item">
                                       My Foods
-                                    </a>
-
-                                    <a href="/workouts" class="dropdown-item">
-                                      My Exercise
                                     </a>
 
                                     <a href="/foodDatabase" class="dropdown-item">

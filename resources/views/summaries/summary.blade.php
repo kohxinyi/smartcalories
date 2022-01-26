@@ -62,12 +62,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <table style="width: 100%; margin-top: 5px; margin-bottom: 0px">
             <tr>
               <td><i class="fa fa-intersex fa-fw w3-large w3-text-amber"></i></td>
-              <td>{{$user->gender}}</td>
+              <td>Female</td>
               <!--  $profile->gender  -->
             </tr>
             <tr>
               <td><p class=" w3-large w3-text-amber">-W-</p></td>
-              <td>56.4 kg</td>
+              <td>54.9 kg</td>
             </tr>
             <tr>
               <td><p class=" w3-large w3-text-amber">-H-</p></td>
@@ -75,7 +75,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             </tr>
             <tr>
               <td><p class=" w3-large w3-text-amber">BMI</p></td>
-              <td>19.2 kg/m2</td>
+              <td>18.8 kg/m2</td>
               <!-- round($profile->weight / ($profile->height*0.01) / ($profile->height*0.01),2) -->
             </tr>
           </table>
@@ -144,20 +144,20 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
             <div class="w3-container w3-pale-yellow rcorners-meals">
                 <h3>Lunch</h3>
                 <div style="float: right">
-                <h4>--1290 kcal--</h4>
+                <h4>--1090 kcal--</h4>
                 </div>
             </div>
             <div class="w3-container w3-pale-green rcorners-meals">
                 <h3>Dinner</h3>
                 <div style="float: right">
-                <h4>--1350 kcal--</h4>
+                <h4>--850 kcal--</h4>
                 </div>
             </div>
 
             <div class="w3-container w3-pale-blue rcorners-meals">
                 <h3>Snack</h3>
                 <div style="float: right">
-                <h4>--310 kcal--</h4>
+                <h4>--165 kcal--</h4>
                 </div>
             </div>
             <!-- button -->
@@ -181,10 +181,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['Date', 'Weight(KG)'],
-          ['17/01',  57.2],
-          ['18/01',  56.9],
-          ['19/01',  55.5],
-          ['20/01',  56.4]
+          ['20/01',  55.0],
+          ['21/01',  56.1],
+          ['22/01',  55.6],
+          ['23/01',  54.9]
         ]);
 
         var options = {
@@ -218,11 +218,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['Nutrition', 'grams'],
-          ['Fat',     21.02 ],
-          ['Protein',      75.12],
-          ['Carbohydrate',  165.17],
-          ['Fiber',  35.2],
-          ['Water',  35.09]
+          ['Fat',     61.02 ],
+          ['Protein',      175.12],
+          ['Carbohydrate',  665.17],
+          ['Fiber',  18.2],
+          ['Water',  95.09]
         ]);
 
         var options = {
